@@ -1,0 +1,142 @@
+/*
+
+******Fix the backgrounds ratio on resizing 
+
+******Fix the guitarist's position on resizing
+
+******Add basic media queries
+
+******Finalize the design accordign to the mockup
+
+-o, -moz, -webkit prefix not added
+Add for cross browser compatibility
+
+border: 1px solid black property added for seeing the visual layout 
+Comment the code at the end of making the basic structure 
+
+
+To add social media icons using the Font-Awesome library
+
+*/
+
+/*Page wide styling*/
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#main-body-wrapper{
+    border: 1px solid black;
+    display: flex;
+    height: 100vh;
+}
+
+/*End of Page Wide styling*/
+
+/*Sidebar and Showcase styling*/
+
+#main-sidebar{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+#main-sidebar *{
+    text-align: center;
+}
+
+#showcase-wrapper{
+    border: 1px solid black;
+    flex-grow: 1;
+    background-image: url("../img/polybg.svg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+/*End of Sidebar and Showcase styling*/
+
+/*Sidebar styling*/
+
+#main-sidebar h1{
+    border: 1px solid black;
+}
+
+#main-sidebar .navbar{
+    border: 1px solid black;
+}
+align-self: flex-end;
+#main-sidebar .navbar ul{
+    list-style-type: none;
+}
+
+#main-sidebar .navbar ul li {
+    padding: 13px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#main-sidebar .navbar ul li a{
+    color: #ffffff;
+}
+
+
+#main-sidebar #site-info{
+    border: 1px solid black;
+}
+
+#site-info #main-logo{
+    border: 1px solid black;
+    padding: 10px 0px 20px 0px;
+}
+
+#site-info .event-info{
+    padding: 10px;
+}
+
+#site-info .date-info{
+    padding: 3px 0px 0px 0px;
+}
+
+#site-info .date-info h5{
+    padding: 5px;
+}
+/*End of Sidebar styling*/
+
+/*Showcase styling*/
+
+#showcase-wrapper .showcase-guitarist{
+    border: 1px solid black;
+    height: 90%;
+    width: 20%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-image: url("../img/guitarist.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*End of Showcase styling*/

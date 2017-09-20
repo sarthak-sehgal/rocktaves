@@ -1,6 +1,6 @@
 .slider {
 	display: flex;
-	background-color: #fff;
+	background-color: rgba(255,255,255,0.9);
 	width: 60vw;
 	height: 60vh;
 	margin-top: 10vh;

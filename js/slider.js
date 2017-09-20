@@ -1,22 +1,35 @@
-$(document).ready(function(){ 
-	$('.s1').click(function(){    
-	    $('#slide2, #slide3, #slide4').fadeOut(350, function(){
-	        $('#slide1').fadeIn(350);
-	    });
+$('#next').click(function(){ 
+	$('#slider').css({
+		'left':'-=100%'
 	});
-	$('.s2').click(function(){    
-	    $('#slide1, #slide3, #slide4').fadeOut(350, function(){
-	        $('#slide2').fadeIn(350);
-	    });
+	var element = document.getElementById('slider'),
+    style = window.getComputedStyle(element),
+    left = style.getPropertyValue('left');
+    if(left=='-500px')
+    {
+    	$('#prev').css({
+    		'display': 'block'
+		});
+    }
+    if(left=='-2000px')
+    {
+    	$('#next').css({
+    		'display': 'none'
+    	});
+    }
+});
+$('#prev').click(function(){
+	$('#slider').css({
+		'left':'+=100%'
 	});
-	$('.s3').click(function(){    
-	    $('#slide1, #slide2, #slide4').fadeOut(350, function(){
-	        $('#slide3').fadeIn(350);
-	    });
-	});
-	$('.s4').click(function(){    
-	    $('#slide1, #slide2, #slide3').fadeOut(350, function(){
-	        $('#slide4').fadeIn(350);
-	    });
-	});
+	var element = document.getElementById('slider'),
+    style = window.getComputedStyle(element),
+    left = style.getPropertyValue('left');
+    console.log(left);
+    if(left=='0px')
+    {
+    	$('#prev').css({
+    		'display': 'none'
+    	});
+    }
 });

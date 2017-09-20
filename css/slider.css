@@ -1,6 +1,6 @@
 #slider-container {
-	width: 500px;
-	height: 400px;
+	width: 50vw;
+	height: 60vh;
 	overflow: hidden;
 	transition: transform .5s ease-in-out;
 	position: relative;
@@ -11,15 +11,30 @@
 #slider {
 	display: flex;
 	position: absolute;
-	width: 2500px;
+	width: 250vw;
 	color: #fff;
 	white-space: normal;
 	left: 0;
 	text-align: center;
+	align-items: center;
+}
+#slide0 {
+	text-align: left;
+}
+#slide0 h1 {
+	font-size: 6vw;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+#slide0 p {
+	font-size: 1.6vw;
+	margin: 0;
+	padding: 0;
 }
 .slide {
-	width: 500px;
-	height: 400px;
+	width: 50vw;
+	height: 60vh;
 }
 .slide h1 {
 }

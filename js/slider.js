@@ -33,3 +33,18 @@ $('#prev').click(function(){
     	});
     }
 });
+$('#about').click(function(){
+    $('#slider').animate({
+        'left':'0%'
+    },500);
+});
+$('#rules').click(function(){
+    $('#slider').animate({
+        'left':'-100%'
+    },500);
+});
+$('#contact').click(function(){
+    $('#slider').animate({
+        'left':'-200%'
+    },500);
+});

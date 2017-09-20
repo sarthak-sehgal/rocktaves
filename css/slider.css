@@ -9,6 +9,7 @@
 	color: #000;
 	border-radius: 5px;
 	text-align: center;
+	align-items: center;
 }
 .slide {
 	position: absolute;

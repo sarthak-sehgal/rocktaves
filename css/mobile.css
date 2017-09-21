@@ -90,7 +90,10 @@
    .mobile-content h2{
        font-size: 3em;
        margin-top: -15px;
-       border-bottom: 2px solid #365E9B;
+       /* border-bottom: 2px solid #365E9B; */
+       text-decoration: underline;
+       text-decoration-color: #365E9B;
+       text-decoration-style: solid;
    }
 
    .mobile-content p{
@@ -101,7 +104,7 @@
        position: absolute;
        top: 10px;
        right: 10px;
-       cursor: pointer;
+       curso
    }
 
 }

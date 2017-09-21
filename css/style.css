@@ -64,6 +64,7 @@ nav {
     left: 0;
     height: 10vh;
     border-bottom: 4px solid #6b8fc5;
+    z-index: 999;
 }
 nav .nav-logo {
     width: 30%;
@@ -144,11 +145,6 @@ nav .nav-links a:hover {
     align-items: center;
 }
 
-#showcase-wrapper .slide h2, #showcase-wrapper .slide h1{
-    text-align: center;
-    font-size: 6vw;
-}
-
 .showcase-guitarist{
     position: absolute;
     right: 2vw;
@@ -156,15 +152,5 @@ nav .nav-links a:hover {
     height: 95vh;
 }
 
-#slider-container{
-    border: 2px solid white;
-    border-radius: 4px;
-}
-
-#slider{
-    padding: 5px;
-    justify-content: center;
-    overflow: auto;
-}
 /*End of Showcase styling*/
 

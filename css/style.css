@@ -40,6 +40,10 @@ ul{
     height: 100vh;
 }
 
+#mobile-buttons{
+    display: none;
+}
+
 /*End of Page Wide styling*/
 
 /*Navbar styling*/
@@ -55,7 +59,7 @@ nav {
     top: 0;
     left: 0;
     height: 10vh;
-    border-bottom: 7px solid #6b8fc5;
+    border-bottom: 4px solid #6b8fc5;
 }
 nav .nav-logo {
     width: 30%;
@@ -89,8 +93,7 @@ nav .nav-links a:hover {
 }
 /*Sidebar styling*/
 
-#main-sidebar h1{
-}
+
  
 #main-sidebar .navbar{
     align-self: flex-center;
@@ -110,8 +113,8 @@ nav .nav-links a:hover {
 }
 
 
-#main-sidebar #site-info{
-}
+
+
 
 #site-info #main-logo{
     padding: 10px 0px 20px 0px;
@@ -136,10 +139,16 @@ nav .nav-links a:hover {
     height: 100%;
     align-items: center;
 }
+
+#showcase-wrapper .slide h2{
+    font-size: 6vw;
+}
+
 .showcase-guitarist{
     position: absolute;
     right: 2vw;
     bottom: 0;
-    height: 85vh;*/
+    height: 95vh;
 }
 /*End of Showcase styling*/
+

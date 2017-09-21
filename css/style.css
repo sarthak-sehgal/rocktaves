@@ -44,6 +44,10 @@ ul{
     display: none;
 }
 
+.mobile-content{
+    display: none;
+}
+
 /*End of Page Wide styling*/
 
 /*Navbar styling*/

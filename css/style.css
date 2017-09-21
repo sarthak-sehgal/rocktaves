@@ -144,7 +144,8 @@ nav .nav-links a:hover {
     align-items: center;
 }
 
-#showcase-wrapper .slide h2{
+#showcase-wrapper .slide h2, #showcase-wrapper .slide h1{
+    text-align: center;
     font-size: 6vw;
 }
 
@@ -153,6 +154,17 @@ nav .nav-links a:hover {
     right: 2vw;
     bottom: 0;
     height: 95vh;
+}
+
+#slider-container{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+#slider{
+    padding: 5px;
+    justify-content: center;
+    overflow: auto;
 }
 /*End of Showcase styling*/
 

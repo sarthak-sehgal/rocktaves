@@ -1,5 +1,4 @@
-@media (max-width: 900px){
-
+@media (max-aspect-ratio: 4/3) and (orientation: portrait) {
     #navbar{
         display: none;
     }
@@ -109,9 +108,8 @@
 
 }
 
-@media (max-width:560px){
+@media (max-aspect-ratio: 4/3) and (orientation: portrait){
     .showcase-guitarist{
         display: none;
     }
 }
-    
